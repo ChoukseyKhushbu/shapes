@@ -1,0 +1,71 @@
+body{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+#block{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#block > div{
+    width: 300px;
+    height: 210px;
+    /* padding:75px 30px 75px 30px; */
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: #eb972b;
+}
+.rectangle
+{
+    width: 200px;
+    height: 150px;
+    background-color: #34bb8e;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background: #48DBFB 0% 0% no-repeat padding-box;
+}
+.round_rect{
+    width: 250px;
+    height: 150px;
+    border-radius: 75px;
+    background: #48FB7E 0% 0% no-repeat padding-box; 
+}
+.tri{
+    width: 0px;
+    height: 0px;
+}
+.upper{
+    width: 0px;
+    height: 0px;
+    border-right: 150px solid #FF6B6B ;
+    border-bottom: 150px solid transparent; 
+}
+.lower{
+    width: 0px;
+    height: 0px;
+    border-right: 150px solid #F754C1 ;
+    border-top: 150px solid transparent; 
+}
+.verticle{
+width: 0px;
+height: 0px;
+border-left: 75px solid transparent;
+border-right: 75px solid transparent;
+border-bottom: 149px solid #AC6E3E; 
+/* background: #FF6B6B 0% 0% no-repeat padding-box; */
+/* -webkit-transform:matrix(1,0,0,1,0,0); */
+}
+.horizontal{
+    width: 0px;
+    height: 0px;
+    border-bottom: 75px solid transparent;
+    border-top: 75px solid transparent;
+    border-left: 149px solid #F13737 ; 
+}
