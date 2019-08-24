@@ -18,48 +18,56 @@ body{
     width: 150px;
     height: 150px;
     background-color: #eb972b;
+    margin:30px 75px;
 }
 .rectangle
 {
     width: 200px;
     height: 150px;
     background-color: #34bb8e;
+    margin:30px 50px;
 }
 .circle{
     width: 150px;
     height: 150px;
     border-radius: 75px;
     background: #48DBFB 0% 0% no-repeat padding-box;
+    margin:30px 75px;
 }
 .round_rect{
     width: 250px;
     height: 150px;
     border-radius: 75px;
     background: #48FB7E 0% 0% no-repeat padding-box; 
+    margin:30px 25px;
 }
 .tri{
     width: 0px;
     height: 0px;
+    margin:30px 75px;
 }
 .upper{
     width: 0px;
     height: 0px;
     border-right: 150px solid #FF6B6B ;
     border-bottom: 150px solid transparent; 
+    margin:30px 75px;
 }
 .lower{
     width: 0px;
     height: 0px;
     border-right: 150px solid #F754C1 ;
     border-top: 150px solid transparent; 
+    margin:30px 75px;
 }
 .verticle{
-width: 0px;
-height: 0px;
-border-left: 75px solid transparent;
-border-right: 75px solid transparent;
-border-bottom: 149px solid #AC6E3E; 
-/* background: #FF6B6B 0% 0% no-repeat padding-box; */
+    width: 0px;
+    height: 0px;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 149px solid #AC6E3E; 
+    margin:30px 75px;
+    /* background: #FF6B6B 0% 0% no-repeat padding-box; */
 /* -webkit-transform:matrix(1,0,0,1,0,0); */
 }
 .horizontal{
@@ -68,4 +76,5 @@ border-bottom: 149px solid #AC6E3E;
     border-bottom: 75px solid transparent;
     border-top: 75px solid transparent;
     border-left: 149px solid #F13737 ; 
+    margin:30px 75px;
 }
